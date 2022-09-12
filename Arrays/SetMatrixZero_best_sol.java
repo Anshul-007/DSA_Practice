@@ -32,7 +32,8 @@ public class ProblemA {
 		int col0 = 0;
 		
 		//looping entire array skipping 0th column
-		//the 0th column will be marked as 1 if 0 is found 
+		//the 0th column will mark col0 as 1 if '0' is found 
+		//this will help make us distinct between dummy column or real value column
 		for(int i = 0; i<row; i++) {
 			
 			if(array[i][0] == 0) col0 = 1; //code to handle the 0th column
