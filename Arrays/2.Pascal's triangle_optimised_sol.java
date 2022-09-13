@@ -1,3 +1,7 @@
+//Time complexity: O(N^2)
+//Space complexity: O(N^2)
+
+
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         //we create row and previous_row
