@@ -1,3 +1,7 @@
+//Time complexity: O(N^2)
+//Space complexity: O(1)
+
+
 package Practice;
 import java.io.IOException;
 import java.io.InputStreamReader;
