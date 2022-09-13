@@ -30,7 +30,7 @@ public class ProblemA {
 		int max = Integer.MIN_VALUE;
 		for(int i = 0; i<A.length; i++) {
 			
-			//sum will be initialized with subarray's first element
+			//sum will be initialized with 0
 			sum = 0;
 			//System.out.println(max);
 			for(int j = i; j<A.length; j++)
